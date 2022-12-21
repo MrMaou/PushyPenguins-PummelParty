@@ -1,7 +1,7 @@
 {
     "Version": 0,
     "title": "Pushy Penguins (WIP)",
-    "description": "Pushy Penguins from Mario Party 5\nThis is very much a work in progress.",
+    "description": "Pushy Penguins from Mario Party 5\nThis is very much a work in progress.\n\nPost issues here or in the comments:\nhttps://github.com/MrMaou/PushyPenguins-PummelParty",
     "language": "English",
     "metaData": "",
     "visibility": 0,
@@ -13,20 +13,6 @@
     ],
     "isInternal": false,
     "previewFiles": [
-        {
-            "type": 0,
-            "path": "",
-            "guid": {
-                "serializedGuid": "1e5f5f9c-22f1-4375-9aa2-99e8de64133f"
-            }
-        },
-        {
-            "type": 0,
-            "path": "",
-            "guid": {
-                "serializedGuid": "d64d4607-229e-47d9-92fc-6412f9e3b9b3"
-            }
-        },
         {
             "type": 0,
             "path": "",

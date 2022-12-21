@@ -16,7 +16,7 @@
         "AmbienceGUID": {
             "serializedGuid": "7e700004-57c1-4036-9fa5-a683272f4c4d"
         },
-        "AmbienceVolume": 0.5
+        "AmbienceVolume": 0.0
     },
     "SimpleModPlayerSettings": {
         "topDownCameraMode": 0,
@@ -24,8 +24,8 @@
         "topDownCameraDistance": 1.0,
         "topDownCameraPositionOffset": {
             "x": 0.0,
-            "y": 8.0,
-            "z": -5.0
+            "y": 7.0,
+            "z": -4.0
         },
         "topDownCamerafollowAllAreaRect": {
             "serializedVersion": "2",
@@ -101,6 +101,9 @@
                 },
                 {
                     "id": 1
+                },
+                {
+                    "id": 2
                 }
             ]
         },
@@ -119,18 +122,28 @@
             "data": {
                 "m_type": 544,
                 "m_version": 0,
-                "m_targetFlags": 2,
-                "m_targets": [],
+                "m_targetFlags": 4,
+                "m_targets": [
+                    {
+                        "m_assetGUID": {
+                            "serializedGuid": "72ad6368-87de-441a-ae45-31bf099fb61a"
+                        },
+                        "m_asset": {
+                            "m_FileID": -41010,
+                            "m_PathID": 0
+                        }
+                    }
+                ],
                 "m_clip": {
                     "m_assetGUID": {
-                        "serializedGuid": "ffdfd9b5-c8ac-4e4b-9526-5e338a7a86bd"
+                        "serializedGuid": "7e700004-57c1-4036-9fa5-a683272f4c4d"
                     },
                     "m_asset": {
-                        "m_FileID": -726670,
+                        "m_FileID": -40682,
                         "m_PathID": 0
                     }
                 },
-                "m_volume": 0.8999999761581421
+                "m_volume": 1.0
             }
         },
         "00000001": {
@@ -150,6 +163,29 @@
             }
         },
         "00000002": {
+            "type": {
+                "class": "PlaySoundAction",
+                "ns": "ModSystem.Logic",
+                "asm": "Assembly-CSharp"
+            },
+            "data": {
+                "m_type": 544,
+                "m_version": 0,
+                "m_targetFlags": 2,
+                "m_targets": [],
+                "m_clip": {
+                    "m_assetGUID": {
+                        "serializedGuid": "ffdfd9b5-c8ac-4e4b-9526-5e338a7a86bd"
+                    },
+                    "m_asset": {
+                        "m_FileID": -40690,
+                        "m_PathID": 0
+                    }
+                },
+                "m_volume": 0.8999999761581421
+            }
+        },
+        "00000003": {
             "type": {
                 "class": "Terminus",
                 "ns": "UnityEngine.DMAT",
