@@ -1,0 +1,42 @@
+{
+    "Version": 0,
+    "title": "Pushy Penguins (WIP)",
+    "description": "Pushy Penguins from Mario Party 5\nThis is very much a work in progress.",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Fast-paced",
+        "Funny",
+        "Hazards"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "1e5f5f9c-22f1-4375-9aa2-99e8de64133f"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "d64d4607-229e-47d9-92fc-6412f9e3b9b3"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "52e43197-8267-4bf4-a74f-418b387e8bdc"
+            }
+        }
+    ],
+    "publishedFileId": 2904215505,
+    "previewImageGuid": {
+        "serializedGuid": "d2c7c515-b9ae-45d2-808b-ae0a0a890967"
+    }
+}
