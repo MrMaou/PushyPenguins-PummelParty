@@ -16,7 +16,7 @@
         "AmbienceGUID": {
             "serializedGuid": "7e700004-57c1-4036-9fa5-a683272f4c4d"
         },
-        "AmbienceVolume": 0.0
+        "AmbienceVolume": 0.5049999952316284
     },
     "SimpleModPlayerSettings": {
         "topDownCameraMode": 0,
@@ -101,9 +101,6 @@
                 },
                 {
                     "id": 1
-                },
-                {
-                    "id": 2
                 }
             ]
         },
@@ -114,39 +111,6 @@
     "references": {
         "version": 1,
         "00000000": {
-            "type": {
-                "class": "PlaySoundAction",
-                "ns": "ModSystem.Logic",
-                "asm": "Assembly-CSharp"
-            },
-            "data": {
-                "m_type": 544,
-                "m_version": 0,
-                "m_targetFlags": 4,
-                "m_targets": [
-                    {
-                        "m_assetGUID": {
-                            "serializedGuid": "72ad6368-87de-441a-ae45-31bf099fb61a"
-                        },
-                        "m_asset": {
-                            "m_FileID": -41010,
-                            "m_PathID": 0
-                        }
-                    }
-                ],
-                "m_clip": {
-                    "m_assetGUID": {
-                        "serializedGuid": "7e700004-57c1-4036-9fa5-a683272f4c4d"
-                    },
-                    "m_asset": {
-                        "m_FileID": -40682,
-                        "m_PathID": 0
-                    }
-                },
-                "m_volume": 1.0
-            }
-        },
-        "00000001": {
             "type": {
                 "class": "ShowMessageAction",
                 "ns": "ModSystem.Logic",
@@ -162,7 +126,7 @@
                 "m_duration": 1.0
             }
         },
-        "00000002": {
+        "00000001": {
             "type": {
                 "class": "PlaySoundAction",
                 "ns": "ModSystem.Logic",
@@ -178,14 +142,14 @@
                         "serializedGuid": "ffdfd9b5-c8ac-4e4b-9526-5e338a7a86bd"
                     },
                     "m_asset": {
-                        "m_FileID": -40690,
+                        "m_FileID": -912466,
                         "m_PathID": 0
                     }
                 },
                 "m_volume": 0.8999999761581421
             }
         },
-        "00000003": {
+        "00000002": {
             "type": {
                 "class": "Terminus",
                 "ns": "UnityEngine.DMAT",
